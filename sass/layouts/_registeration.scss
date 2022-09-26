@@ -42,6 +42,11 @@
     &:focus {
        border-color: var(--accent-cl);
     }
+
+    &:hover + .registration__icon,
+    &:focus + .registration__icon {
+        fill: var(--accent-cl);
+    }
 }
 
 .registration__icon {

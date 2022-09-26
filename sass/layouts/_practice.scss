@@ -30,5 +30,5 @@
 
 .practice-box__subtitle {
     color: var(--main-bg-cl);
-    @include font-standart($lh: 16px, $tt: uppercase);
+    @include font-standart($fw: 700, $lh: 16px, $tt: uppercase);
 }

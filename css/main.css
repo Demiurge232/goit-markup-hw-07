@@ -381,7 +381,7 @@ p {
 
 .practice-box__subtitle {
   color: var(--main-bg-cl);
-  font-weight: 400;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -733,6 +733,9 @@ p {
 }
 .registration__input:hover, .registration__input:focus {
   border-color: var(--accent-cl);
+}
+.registration__input:hover + .registration__icon, .registration__input:focus + .registration__icon {
+  fill: var(--accent-cl);
 }
 
 .registration__icon {
